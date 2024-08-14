@@ -242,4 +242,16 @@ h2,
   width: 70%;
   line-height: 1.5;
   text-align: center;
+}
+
+#run-extra {
+  background-color: #191d24;
+  padding: 30px;
+  border-radius: 20px;
+}
+#run-extra h2,
+#run-extra p {
+  width: 70%;
+  margin-left: 0;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
