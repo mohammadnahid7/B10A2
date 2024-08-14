@@ -40,6 +40,12 @@ section {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+@media (max-width: 576px) {
+  section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 
 .logo {
   font-size: 36px;
@@ -87,6 +93,11 @@ h3,
   font-size: 16px;
   margin-bottom: 45px;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .section-subtitle {
+    width: 100%;
+  }
 }
 
 .circle-avatar {
@@ -186,6 +197,11 @@ h3,
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 576px) {
+  #main-header .navbar .container {
+    height: 80px;
+  }
+}
 #main-header .navbar .container nav {
   width: 35%;
 }
@@ -236,6 +252,7 @@ h3,
 @media (max-width: 576px) {
   #main-header .hero .hero__left {
     width: 100%;
+    margin-bottom: 0;
   }
 }
 #main-header .hero .hero__left p {
@@ -247,12 +264,22 @@ h3,
     text-align: center;
   }
 }
+#main-header .hero .hero__left .diff {
+  font-size: 78px;
+  font-family: "Miama", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 576px) {
+  #main-header .hero .hero__left .diff {
+    font-size: 36px;
+  }
+}
 #main-header .hero .hero__left .btn-group button + button {
   margin-left: 15px;
 }
 @media (max-width: 576px) {
   #main-header .hero .hero__left .btn-group {
-    text-align: center;
+    justify-content: center;
   }
 }
 #main-header .hero .hero__right {
@@ -368,6 +395,7 @@ h3,
 @media (max-width: 576px) {
   #run-extra h2,
   #run-extra p {
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -491,14 +519,31 @@ h3,
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#team img {
+#team > div {
+  position: relative;
   box-sizing: content-box;
-  border-radius: 10px;
   margin: 8px 8px;
   width: calc(33% - 16px);
 }
+#team > div img {
+  border-radius: 10px;
+}
 @media (max-width: 576px) {
-  #team img {
+  #team > div img {
+    width: 100%;
+  }
+}
+#team > div .trainer-info {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+#team > div .trainer-info .trainer-name {
+  font-size: 18px;
+  font-weight: 900;
+}
+@media (max-width: 576px) {
+  #team > div {
     width: 100%;
   }
 }
@@ -581,4 +626,51 @@ footer .footer__right .footer-menu li {
 }
 footer .footer__right .footer-menu a {
   font-size: 18px;
+}
+
+#testimonial {
+  padding: 20px 0;
+  border-radius: 18px;
+}
+@media (max-width: 576px) {
+  #testimonial {
+    flex-wrap: wrap;
+    margin: 0 15px;
+    padding: 10px 0;
+    margin-bottom: 50px;
+  }
+}
+#testimonial .testimoni {
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #222831;
+}
+@media (max-width: 576px) {
+  #testimonial .testimoni {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+#testimonial .testimoni .client-info {
+  margin-bottom: 15px;
+}
+#testimonial .testimoni .client-info img {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  width: 80px;
+  margin-right: 20px;
+}
+#testimonial .testimoni .client-info h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+#testimonial .scale {
+  background-color: rgba(118, 171, 174, 0.3490196078);
+  transform: scale(1.2);
+}
+@media (max-width: 576px) {
+  #testimonial .scale {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=main.css.map */
