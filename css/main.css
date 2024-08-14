@@ -21,12 +21,18 @@ a {
 
 .container {
   max-width: 1060px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
 }
 
 .container-fluid {
   width: 100%;
+}
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -50,11 +56,16 @@ h2,
   line-height: 120%;
   font-weight: 900;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .section-subtitle {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 16px;
   margin-bottom: 45px;
+  text-align: center;
 }
 
 .circle-avatar {
@@ -116,7 +127,8 @@ h2,
 
 #main-header {
   height: 100vh;
-  max-height: 800px;
+  max-height: 700px;
+  background: linear-gradient(to bottom, #222831, #2c3138, #222831);
 }
 #main-header .navbar {
   width: 100%;
@@ -144,6 +156,11 @@ h2,
 }
 #main-header .hero .hero__left {
   width: 50%;
+  margin-bottom: 5%;
+}
+#main-header .hero .hero__left p {
+  width: 100%;
+  text-align: left;
 }
 #main-header .hero .hero__left .btn-group button + button {
   margin-left: 15px;
@@ -154,7 +171,7 @@ h2,
   position: relative;
   background-image: url("../images/Images 2.png");
   background-repeat: no-repeat;
-  background-position: 90% center;
+  background-position: 90% bottom;
 }
 #main-header .hero .hero__right .stat-1 {
   position: absolute;
@@ -207,4 +224,22 @@ h2,
 #main-header .hero .hero__right .stat-2 p {
   font-size: 40px;
   font-weight: 900;
+}
+
+#habit .targets .target {
+  flex-direction: column;
+}
+#habit .targets .target img {
+  border-radius: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+#habit .targets .target h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#habit .targets .target span {
+  width: 70%;
+  line-height: 1.5;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
