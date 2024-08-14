@@ -51,11 +51,12 @@ h1,
 }
 
 h2,
+h3,
 .section-title {
   font-size: 48px;
   line-height: 120%;
   font-weight: 900;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -94,6 +95,10 @@ h2,
   background-color: transparent;
   color: white;
   border: 1px solid white;
+}
+
+.section-bg-dark {
+  background-color: #191d24;
 }
 
 .flex {
@@ -245,13 +250,66 @@ h2,
 }
 
 #run-extra {
-  background-color: #191d24;
   padding: 30px;
   border-radius: 20px;
 }
 #run-extra h2,
 #run-extra p {
   width: 70%;
+  margin-left: 0;
+  text-align: left;
+}
+
+#bmi-calc {
+  padding: 60px 0;
+}
+#bmi-calc h3 {
+  font-size: 28px;
+  text-align: left;
+}
+#bmi-calc .bmi-calc__left {
+  width: 45%;
+}
+#bmi-calc .bmi-calc__left td,
+#bmi-calc .bmi-calc__left th {
+  gap: 0;
+  margin: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+#bmi-calc .bmi-calc__left tr {
+  border: 1px solid white;
+}
+#bmi-calc .bmi-calc__right {
+  width: 55%;
+}
+#bmi-calc .bmi-calc__right p {
+  width: 100%;
+}
+#bmi-calc .bmi-calc__right form {
+  width: 100%;
+}
+#bmi-calc .bmi-calc__right form input,
+#bmi-calc .bmi-calc__right form select {
+  width: 47%;
+  background-color: #222831;
+  outline: 0;
+  border: 0;
+  margin-bottom: 15px;
+  padding: 18px;
+  border-radius: 10px;
+}
+#bmi-calc .bmi-calc__right form .input-ml {
+  margin-left: 13px;
+}
+#bmi-calc .bmi-calc__right button {
+  margin-top: 20px;
+  width: 40%;
+}
+#bmi-calc .bmi-calc__right .section-subtitle {
   margin-left: 0;
   text-align: left;
 }/*# sourceMappingURL=main.css.map */
