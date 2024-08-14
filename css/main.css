@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-size: 14px;
+  color: #eeeeee;
+}
+
+body {
+  background-color: #222831;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #76abae;
+  font-style: italic;
+}
+
+h1,
+.banner-title {
+  font-size: 78px;
+  line-height: 120%;
+  font-weight: 900;
+}
+
+h2,
+.section-title {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 900;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  line-height: 24%;
+}
+
+.circle-avatar {
+  border-radius: 1000px;
+  width: 180px;
+  height: 180px;
+}
+
+.btn,
+.nav-menu {
+  border: 0;
+  border-radius: 100px;
+  outline: 0;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 40px;
+}
+
+.btn-primary,
+.nav-menu-active {
+  background-color: #76abae;
+  color: black;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-top {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-bottom {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#main-header .navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-header .navbar nav {
+  width: 35%;
+}
+#main-header .navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+}
+#main-header .navbar nav ul a {
+  font-size: 18px;
+  padding: 7px 14px;
+}/*# sourceMappingURL=main.css.map */
