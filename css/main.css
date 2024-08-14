@@ -312,4 +312,17 @@ h3,
 #bmi-calc .bmi-calc__right .section-subtitle {
   margin-left: 0;
   text-align: left;
+}
+
+#team {
+  border-radius: 12px;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#team img {
+  box-sizing: content-box;
+  border-radius: 10px;
+  margin: 8px 8px;
+  width: calc(33% - 16px);
 }/*# sourceMappingURL=main.css.map */
